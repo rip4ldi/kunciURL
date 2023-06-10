@@ -67,11 +67,11 @@ function unlock(){
                 console.log(unlocked_url)
                 window.location.replace(unlocked_url);
             } else {
-                alert("URL or KEY is incorrect!");
+                alert("URL atau Password salah!");
             }
         }
         catch(e){
-            alert("URL or KEY is incorrect!");
+            alert("URL atau Password salah!");
         }
     }
 }
